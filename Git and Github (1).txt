@@ -1,0 +1,128 @@
+                                                
+Git and Github
+
+
+1)What is Git?
+Git is a version control system and it was creaated by linus torwalds 
+
+
+It is a free, high-quality distributed version control system suitable for tracking modifications in source code in software development.
+It was originally created as an open-source system for coordinating tasks among programmers, but today it is widely used to track changes in any set of files. 
+
+
+2)more about of Git?
+Git is not the same as GitHub.
+GitHub makes tools that use Git.
+GitHub is the largest host of source code in the world, and has been owned by Microsoft since 2018.
+In this tutorial, we will focus on using Git with GitHub.
+
+
+
+3)features of Git?
+1.Git is not the same as GitHub.
+2.GitHub makes tools that use Git.
+3.GitHub is the largest host of source code in the world, and has been owned by Microsoft since 2018.
+
+
+4)featues of Git-hub?
+1.Easy process management
+2.Branching capability
+3.Free
+4.Increased code safety
+5.It is flexible to modify
+6.Easy code hosting
+
+
+5)what is VCS?
+VCS stand for version control system
+
+Version control, also known as source control, is the practice of tracking and managing changes to software code. 
+Version control systems are software tools that help software teams manage changes to source code over time.
+
+The types of VCS are: Local Version Control System. Centralized Version Control System. Distributed Version Control System.
+Keeps track of the changes we make our files
+makes collobarations easier
+
+6)benefits of VCS?
+1.Idenitity
+2.Reduction of duplications of erros 
+3.Reusability
+4.Branching and merging
+5.Managing and protecting the source code
+
+7)what is the differnce between git and gihub?
+
+   Git;-                                                                                Github
+1.Git is software                                                        1.It is a service
+2.Linux maintains Git.                                                  2.Microsoft maintains GitHub. 
+3.It is a command-line tool.                                            3.It is a graphical user interface.
+4.You can install it locally on the system.                             4.It is hosted on the web. It is exclusively cloud-based.
+5.It is a VCS to manage source code history.                            5.It is a hosting service for Git repositories.
+
+
+8)commands in git
+-git init
+Initializes a new Git repository. If you want to place a project under revision control, this is the first command you need to learn.
+
+-git log
+The git log command shows the order of the commit history for a repository.
+
+-git pull
+Pulling is the automated version of git fetch. It downloads a branch from a remote repository, then immediately merges it into the current branch. This is the Git equivalent of svn update.
+
+-git push
+Pushing is the opposite of fetching (with a few caveats). It lets you move a local branch to another repository, which serves as a convenient way to publish contributions. This is like svn commit, but it sends a series of commits instead of a single changeset.
+
+-git revert
+Undoes a committed snapshot. When you discover a faulty commit, reverting is a safe and easy way to completely remove it from the code base.
+
+-git status
+Displays the state of the working directory and the staged snapshot. You’ll want to run this in conjunction with git add and git commit to see exactly what’s being included in the next snapshot.
+
+- git status
+This command lists all the files that have to be committed.
+
+- git branch
+This command lists all the local branches in the current repository.
+
+- git checkout [branch name]
+This command is used to switch from one branch to another.
+
+- git push [variable name] master
+This command sends the committed changes of master branch to your remote repository
+
+- git push –all [variable name]
+This command pushes all branches to your remote repository.
+
+- git push [variable name] :[branch name]
+This command deletes a branch on your remote repository.
+
+- git rm [file]
+This command deletes the file from your working directory and stages the deletion.
+
+- git clone [url]  
+This command is used to obtain a repository from an existing URL.
+
+- git commit
+
+Usage: git commit -m “[ Type in the commit message]”  
+
+This command records or snapshots the file permanently in the version history.
+
+- git diff  
+
+This command shows the file differences which are not yet staged.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
